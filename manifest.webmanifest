@@ -1,0 +1,38 @@
+{
+    "id": "kaios-bumpboard",
+    "name": "Bumpboard",
+    "short_name": "Bump Keyboard",
+    "description": "Testing my bump keyboard idea",
+    "lang": "en-US",
+    "theme_color": "#ffffff",
+    "orientation": "natural",
+    "start_url": "/index.html",
+    "icons": [
+        {
+            "src": "/assets/icons/kaios_56.png",
+            "type": "image/png",
+            "sizes": "56x56"
+        },
+        {
+            "src": "/assets/icons/kaios_112.png",
+            "type": "image/png",
+            "sizes": "112x112"
+        }
+    ],
+    "b2g_features": {
+        "type": "web",
+        "permissions": {
+	  "input": {
+	    "app": "DENY_ACTION",
+	    "privileged": "ALLOW_ACTION",
+	    "certified": "ALLOW_ACTION"
+	  },
+	  "input-manage": {}
+	},
+        "version": "1.0.0",
+	"developer": {
+	  "name": "Aidan",
+	  "url": "https://hexfriend.net"
+	}
+    }
+}

@@ -1,0 +1,7 @@
+#logger {
+  width: 100%;
+  min-height: 10px;
+  border: solid 1px grey;
+  display: flex;
+  flex-direction: column;
+}
